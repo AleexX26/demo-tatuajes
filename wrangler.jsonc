@@ -1,0 +1,8 @@
+{
+  // Cloudflare Workers (assets estáticos): sirve la carpeta publico/ que genera `node build.mjs`.
+  "name": "demo-tatuajes",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./publico"
+  }
+}
