@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-14T16:05:28.751Z",
+  "title": "Design System: Casa Ferro",
+  "extensions": {
+    "colorMeta": {
+      "carbon": {
+        "role": "neutral",
+        "displayName": "Carbón",
+        "canonical": "#141210",
+        "tonalRamp": [
+          "oklch(15% 0.005 67.5)",
+          "oklch(26% 0.005 67.5)",
+          "oklch(37% 0.005 67.5)",
+          "oklch(48% 0.005 67.5)",
+          "oklch(59% 0.005 67.5)",
+          "oklch(70% 0.005 67.5)",
+          "oklch(82% 0.005 67.5)",
+          "oklch(95% 0.005 67.5)"
+        ]
+      },
+      "carbon-2": {
+        "role": "neutral",
+        "displayName": "Carbón 2",
+        "canonical": "#1d1a17",
+        "tonalRamp": [
+          "oklch(15% 0.007 67.4)",
+          "oklch(26% 0.007 67.4)",
+          "oklch(37% 0.007 67.4)",
+          "oklch(48% 0.007 67.4)",
+          "oklch(59% 0.007 67.4)",
+          "oklch(70% 0.007 67.4)",
+          "oklch(82% 0.007 67.4)",
+          "oklch(95% 0.007 67.4)"
+        ]
+      },
+      "carbon-3": {
+        "role": "neutral",
+        "displayName": "Carbón 3",
+        "canonical": "#27231f",
+        "tonalRamp": [
+          "oklch(15% 0.009 67.4)",
+          "oklch(26% 0.009 67.4)",
+          "oklch(37% 0.009 67.4)",
+          "oklch(48% 0.009 67.4)",
+          "oklch(59% 0.009 67.4)",
+          "oklch(70% 0.009 67.4)",
+          "oklch(82% 0.009 67.4)",
+          "oklch(95% 0.009 67.4)"
+        ]
+      },
+      "linea-form": {
+        "role": "neutral",
+        "displayName": "Línea de formulario",
+        "canonical": "#574e44",
+        "tonalRamp": [
+          "oklch(15% 0.02 70.2)",
+          "oklch(26% 0.02 70.2)",
+          "oklch(37% 0.02 70.2)",
+          "oklch(48% 0.02 70.2)",
+          "oklch(59% 0.02 70.2)",
+          "oklch(70% 0.02 70.2)",
+          "oklch(82% 0.02 70.2)",
+          "oklch(95% 0.02 70.2)"
+        ]
+      },
+      "crema": {
+        "role": "neutral",
+        "displayName": "Crema",
+        "canonical": "#ede6d8",
+        "tonalRamp": [
+          "oklch(15% 0.02 84.6)",
+          "oklch(26% 0.02 84.6)",
+          "oklch(37% 0.02 84.6)",
+          "oklch(48% 0.02 84.6)",
+          "oklch(59% 0.02 84.6)",
+          "oklch(70% 0.02 84.6)",
+          "oklch(82% 0.02 84.6)",
+          "oklch(95% 0.02 84.6)"
+        ]
+      },
+      "crema-2": {
+        "role": "neutral",
+        "displayName": "Crema apagada",
+        "canonical": "#a89f91",
+        "tonalRamp": [
+          "oklch(15% 0.023 79)",
+          "oklch(26% 0.023 79)",
+          "oklch(37% 0.023 79)",
+          "oklch(48% 0.023 79)",
+          "oklch(59% 0.023 79)",
+          "oklch(70% 0.023 79)",
+          "oklch(82% 0.023 79)",
+          "oklch(95% 0.023 79)"
+        ]
+      },
+      "crema-3": {
+        "role": "neutral",
+        "displayName": "Crema 3 (inactivo)",
+        "canonical": "#8a8174",
+        "tonalRamp": [
+          "oklch(15% 0.022 77.2)",
+          "oklch(26% 0.022 77.2)",
+          "oklch(37% 0.022 77.2)",
+          "oklch(48% 0.022 77.2)",
+          "oklch(59% 0.022 77.2)",
+          "oklch(70% 0.022 77.2)",
+          "oklch(82% 0.022 77.2)",
+          "oklch(95% 0.022 77.2)"
+        ]
+      },
+      "laton": {
+        "role": "primary",
+        "displayName": "Latón",
+        "canonical": "#c49a5a",
+        "tonalRamp": [
+          "oklch(15% 0.096 76.7)",
+          "oklch(26% 0.096 76.7)",
+          "oklch(37% 0.096 76.7)",
+          "oklch(48% 0.096 76.7)",
+          "oklch(59% 0.096 76.7)",
+          "oklch(70% 0.096 76.7)",
+          "oklch(82% 0.096 76.7)",
+          "oklch(95% 0.096 76.7)"
+        ]
+      },
+      "laton-claro": {
+        "role": "primary",
+        "displayName": "Latón claro (hover)",
+        "canonical": "#dbb57a",
+        "tonalRamp": [
+          "oklch(15% 0.088 78)",
+          "oklch(26% 0.088 78)",
+          "oklch(37% 0.088 78)",
+          "oklch(48% 0.088 78)",
+          "oklch(59% 0.088 78)",
+          "oklch(70% 0.088 78)",
+          "oklch(82% 0.088 78)",
+          "oklch(95% 0.088 78)"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Error coral",
+        "canonical": "#f0a08a",
+        "tonalRamp": [
+          "oklch(15% 0.101 36.1)",
+          "oklch(26% 0.101 36.1)",
+          "oklch(37% 0.101 36.1)",
+          "oklch(48% 0.101 36.1)",
+          "oklch(59% 0.101 36.1)",
+          "oklch(70% 0.101 36.1)",
+          "oklch(82% 0.101 36.1)",
+          "oklch(95% 0.101 36.1)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Rótulo",
+        "purpose": "Solo el H1 del hero, en dos líneas."
+      },
+      "headline": {
+        "displayName": "Titular de sección",
+        "purpose": "Un H2 por sección."
+      },
+      "title": {
+        "displayName": "Subtítulo",
+        "purpose": "H3 de grupos de servicios, barberos y horario."
+      },
+      "precio": {
+        "displayName": "Cifra de carta",
+        "purpose": "Precios de la carta; el número del día en las casillas usa el mismo trato a 1,375rem."
+      },
+      "body": {
+        "displayName": "Texto",
+        "purpose": "Texto corrido, limitado a 34–65ch."
+      },
+      "label": {
+        "displayName": "Etiqueta",
+        "purpose": "Etiquetas de campo, leyendas, botones pequeños y barra móvil."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Curva única de la casa para estados y para la entrada del hero."
+      },
+      {
+        "name": "estado",
+        "value": ".2s–.3s",
+        "purpose": "Transiciones de color, fondo, borde y flechas."
+      },
+      {
+        "name": "barrido",
+        "value": "clip-path inset(0 0 0 100%) → inset(0) con scale(1.06) → none, 1.3s",
+        "purpose": "Entrada de la foto del hero, una sola vez."
+      },
+      {
+        "name": "subir",
+        "value": "opacity 0 y translateY(.6rem) → reposo, .9s, retrasos 0–.3s",
+        "purpose": "Cascada del rótulo, lema, valoración y acciones del hero."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "campos",
+        "value": "600px"
+      },
+      {
+        "name": "escritorio",
+        "value": "900px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón latón",
+      "kind": "button",
+      "refersTo": "boton",
+      "description": "Acción principal: reservar cita, enviar por WhatsApp, cómo llegar.",
+      "html": "<button class=\"ds-boton\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z\"/></svg>Reservar cita</button>",
+      "css": ".ds-boton { display: inline-flex; align-items: center; justify-content: center; gap: .6em; min-height: 3.25rem; padding: .85rem 1.6rem; background: var(--laton, #c49a5a); color: var(--carbon, #141210); font: 600 1rem/1.2 var(--f-texto, 'Instrument Sans', system-ui, sans-serif); border: 0; border-radius: 0; cursor: pointer; transition: background-color .2s var(--ease, cubic-bezier(.16, 1, .3, 1)), transform .2s var(--ease, cubic-bezier(.16, 1, .3, 1)); } .ds-boton:hover { background: var(--laton-claro, #dbb57a); } .ds-boton:active { transform: translateY(1px); } .ds-boton:focus-visible { outline: 2px solid var(--laton, #c49a5a); outline-offset: 3px; } .ds-ico { width: 1.15em; height: 1.15em; flex: none; }"
+    },
+    {
+      "name": "Botón pequeño",
+      "kind": "button",
+      "refersTo": "boton-peq",
+      "description": "Reservar en la cabecera de escritorio.",
+      "html": "<button class=\"ds-boton-peq\">Reservar</button>",
+      "css": ".ds-boton-peq { display: inline-flex; align-items: center; min-height: 2.5rem; padding: .5rem 1.1rem; background: var(--laton, #c49a5a); color: var(--carbon, #141210); font: 600 .9375rem/1.2 var(--f-texto, 'Instrument Sans', system-ui, sans-serif); border: 0; border-radius: 0; cursor: pointer; transition: background-color .2s var(--ease, cubic-bezier(.16, 1, .3, 1)); } .ds-boton-peq:hover { background: var(--laton-claro, #dbb57a); } .ds-boton-peq:focus-visible { outline: 2px solid var(--laton, #c49a5a); outline-offset: 3px; }"
+    },
+    {
+      "name": "Enlace de acción",
+      "kind": "button",
+      "refersTo": "enlace",
+      "description": "Acción secundaria junto a un botón: llamar, WhatsApp, reservar con un barbero.",
+      "html": "<a class=\"ds-enlace\" href=\"#\">Reservar con Iván<svg class=\"ds-ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-enlace { display: inline-flex; align-items: center; gap: .5em; min-height: 2.75rem; color: var(--laton, #c49a5a); font: 600 1rem/1.2 var(--f-texto, 'Instrument Sans', system-ui, sans-serif); text-decoration: none; text-underline-offset: .2em; text-decoration-thickness: 1px; } .ds-enlace:hover { color: var(--laton-claro, #dbb57a); text-decoration: underline; } .ds-enlace:focus-visible { outline: 2px solid var(--laton, #c49a5a); outline-offset: 3px; } .ds-ico { width: 1.15em; height: 1.15em; flex: none; transition: transform .25s var(--ease, cubic-bezier(.16, 1, .3, 1)); } .ds-enlace:hover .ds-ico { transform: translateX(3px); }"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "campo",
+      "description": "Nombre, teléfono, servicio y barbero del formulario de reserva.",
+      "html": "<label class=\"ds-campo\"><span>Tu nombre</span><input class=\"ds-input\" placeholder=\"Nombre y apellido\"></label>",
+      "css": ".ds-campo { display: block; color: var(--crema, #ede6d8); font-family: var(--f-texto, 'Instrument Sans', system-ui, sans-serif); } .ds-campo span { display: block; margin-bottom: .45rem; font-weight: 600; font-size: .9375rem; } .ds-input { width: 100%; min-height: 3.25rem; padding: .75rem .9rem; background: var(--carbon-2, #1d1a17); color: var(--crema, #ede6d8); border: 1px solid var(--linea-form, #574e44); border-radius: 0; font: inherit; font-size: 1.0625rem; transition: border-color .2s; } .ds-input:hover { border-color: var(--crema-2, #a89f91); } .ds-input:focus-visible { outline: 2px solid var(--laton, #c49a5a); outline-offset: 0; border-color: var(--laton, #c49a5a); }"
+    },
+    {
+      "name": "Casillas de día",
+      "kind": "chip",
+      "refersTo": "opcion",
+      "description": "Selector de día y hora: elegida en latón, cerrada en crema-3.",
+      "html": "<div class=\"ds-dias\"><label class=\"ds-op\"><input type=\"radio\" name=\"d\"><span><small>lun</small><b>12</b></span></label><label class=\"ds-op\"><input type=\"radio\" name=\"d\" checked><span><small>mar</small><b>13</b></span></label><label class=\"ds-op\"><input type=\"radio\" name=\"d\" disabled><span><small>dom</small><b>18</b></span></label></div>",
+      "css": ".ds-dias { display: flex; gap: .5rem; font-family: var(--f-texto, 'Instrument Sans', system-ui, sans-serif); color: var(--crema, #ede6d8); } .ds-op { position: relative; } .ds-op input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; } .ds-op span { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 4.25rem; min-height: 4.75rem; padding: .55rem .8rem; background: var(--carbon-2, #1d1a17); border: 1px solid var(--linea-form, #574e44); line-height: 1.3; font-variant-numeric: tabular-nums; transition: background-color .2s, border-color .2s, color .2s; } .ds-op small { color: var(--crema-2, #a89f91); font-size: .8125rem; } .ds-op b { font: 500 1.375rem/1.1 var(--f-titular, 'Bodoni Moda', Georgia, serif); } .ds-op input:hover + span { border-color: var(--crema-2, #a89f91); } .ds-op input:focus-visible + span { outline: 2px solid var(--laton, #c49a5a); outline-offset: 2px; } .ds-op input:checked + span { background: var(--laton, #c49a5a); border-color: var(--laton, #c49a5a); color: var(--carbon, #141210); } .ds-op input:checked + span small { color: var(--carbon, #141210); } .ds-op input:disabled { cursor: not-allowed; } .ds-op input:disabled + span { background: transparent; color: var(--crema-3, #8a8174); border-color: var(--carbon-3, #27231f); } .ds-op input:disabled + span small { color: var(--crema-3, #8a8174); }"
+    },
+    {
+      "name": "Fila de servicio",
+      "kind": "custom",
+      "refersTo": "servicio-hover",
+      "description": "La carta: nombre y duración a la izquierda; precio Bodoni y Reservar en latón a la derecha.",
+      "html": "<a class=\"ds-serv\" href=\"#\"><span class=\"ds-sn\">Corte clásico<span class=\"ds-sd\">Tijera y máquina, lavado incluido</span></span><span class=\"ds-sp\">18 €</span><span class=\"ds-sdu\">30 min</span><span class=\"ds-si\">Reservar<svg class=\"ds-ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a>",
+      "css": ".ds-serv { display: grid; grid-template-columns: 1fr auto; grid-template-areas: 'n p' 'd i'; gap: .15rem 1rem; padding: 1rem .9rem; color: var(--crema, #ede6d8); text-decoration: none; font-family: var(--f-texto, 'Instrument Sans', system-ui, sans-serif); transition: background-color .25s var(--ease, cubic-bezier(.16, 1, .3, 1)); } .ds-serv:hover, .ds-serv:focus-visible { background: var(--carbon-3, #27231f); } .ds-serv:focus-visible { outline: 2px solid var(--laton, #c49a5a); outline-offset: 3px; } .ds-sn { grid-area: n; font-size: 1.125rem; font-weight: 600; } .ds-sd { display: block; color: var(--crema-2, #a89f91); font-weight: 400; font-size: .9375rem; } .ds-sp { grid-area: p; justify-self: end; font: 500 1.625rem/1.1 var(--f-titular, 'Bodoni Moda', Georgia, serif); font-variant-numeric: lining-nums tabular-nums; } .ds-sdu { grid-area: d; color: var(--crema-2, #a89f91); font-size: .9375rem; font-variant-numeric: tabular-nums; } .ds-si { grid-area: i; justify-self: end; display: inline-flex; align-items: center; gap: .35em; color: var(--laton, #c49a5a); font-size: .9375rem; font-weight: 600; } .ds-ico { width: 1.15em; height: 1.15em; flex: none; transition: transform .25s var(--ease, cubic-bezier(.16, 1, .3, 1)); } .ds-serv:hover .ds-ico { transform: translateX(3px); }"
+    },
+    {
+      "name": "Pregunta frecuente",
+      "kind": "custom",
+      "refersTo": "pregunta",
+      "description": "details sobre carbón con chevron de trazo latón.",
+      "html": "<details class=\"ds-preg\"><summary>¿Hace falta cita?</summary><p>Es recomendable. Si hay hueco, atendemos sin cita.</p></details>",
+      "css": ".ds-preg { background: var(--carbon, #141210); color: var(--crema, #ede6d8); font-family: var(--f-texto, 'Instrument Sans', system-ui, sans-serif); } .ds-preg summary { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 3.5rem; padding: 1rem 1.25rem; font-weight: 600; font-size: 1.0625rem; cursor: pointer; list-style: none; transition: color .2s; } .ds-preg summary::-webkit-details-marker { display: none; } .ds-preg summary::after { content: ''; flex: none; width: .75rem; height: .75rem; border-right: 1.5px solid var(--laton, #c49a5a); border-bottom: 1.5px solid var(--laton, #c49a5a); transform: translateY(-25%) rotate(45deg); transition: transform .3s var(--ease, cubic-bezier(.16, 1, .3, 1)); } .ds-preg[open] summary::after { transform: translateY(25%) rotate(-135deg); } .ds-preg summary:hover { color: var(--laton-claro, #dbb57a); } .ds-preg summary:focus-visible { outline: 2px solid var(--laton, #c49a5a); outline-offset: 3px; } .ds-preg p { margin: 0; padding: 0 1.25rem 1.25rem; color: var(--crema-2, #a89f91); }"
+    },
+    {
+      "name": "Cabecera",
+      "kind": "nav",
+      "refersTo": "boton-peq",
+      "description": "Marca Bodoni, navegación en crema apagada y botón Reservar (escritorio).",
+      "html": "<header class=\"ds-cab\"><a class=\"ds-marca\" href=\"#\">Casa Ferro</a><nav class=\"ds-nav\"><a href=\"#\">Servicios</a><a href=\"#\">Equipo</a><a href=\"#\">Contacto</a></nav><a class=\"ds-cab-btn\" href=\"#\">Reservar</a></header>",
+      "css": ".ds-cab { display: flex; align-items: center; gap: 1.5rem; min-height: 4rem; padding: 0 1.5rem; background: var(--carbon, #141210); color: var(--crema, #ede6d8); font-family: var(--f-texto, 'Instrument Sans', system-ui, sans-serif); } .ds-marca { margin-right: auto; padding-block: .65rem; font: 600 1.5rem/1 var(--f-titular, 'Bodoni Moda', Georgia, serif); letter-spacing: -.01em; color: inherit; text-decoration: none; } .ds-nav { display: flex; gap: 2rem; } .ds-nav a { color: var(--crema-2, #a89f91); text-decoration: none; font-size: .9375rem; padding: .5rem 0; transition: color .2s; } .ds-nav a:hover { color: var(--crema, #ede6d8); } .ds-marca:focus-visible, .ds-nav a:focus-visible, .ds-cab-btn:focus-visible { outline: 2px solid var(--laton, #c49a5a); outline-offset: 3px; } .ds-cab-btn { display: inline-flex; align-items: center; min-height: 2.5rem; padding: .5rem 1.1rem; background: var(--laton, #c49a5a); color: var(--carbon, #141210); font-weight: 600; font-size: .9375rem; text-decoration: none; transition: background-color .2s var(--ease, cubic-bezier(.16, 1, .3, 1)); } .ds-cab-btn:hover { background: var(--laton-claro, #dbb57a); }"
+    },
+    {
+      "name": "Barra fija móvil",
+      "kind": "nav",
+      "refersTo": "barra-movil",
+      "description": "Acción siempre a un toque por debajo de 900px.",
+      "html": "<nav class=\"ds-bm\"><a class=\"ds-bm-p\" href=\"#\">Reservar</a><a href=\"#\">WhatsApp</a><a href=\"#\">Llamar</a></nav>",
+      "css": ".ds-bm { display: grid; grid-template-columns: 1.3fr 1fr 1fr; background: var(--carbon-3, #27231f); font-family: var(--f-texto, 'Instrument Sans', system-ui, sans-serif); } .ds-bm a { display: flex; align-items: center; justify-content: center; min-height: 3.5rem; font-weight: 600; font-size: .9375rem; text-decoration: none; color: var(--crema, #ede6d8); } .ds-bm a:focus-visible { outline: 2px solid var(--laton, #c49a5a); outline-offset: -2px; } .ds-bm .ds-bm-p { background: var(--laton, #c49a5a); color: var(--carbon, #141210); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El rótulo y la carta de noche",
+    "overview": "La web es el letrero y la carta de una barbería de barrio vista de noche. El H1 es el rótulo pintado en el cristal, los precios son la carta colgada en la pared y la reserva es el mostrador. Todo ocurre sobre un suelo de carbón casi negro con tinte cálido; la profundidad la dan escalones de tono, nunca sombras ni filetes. La tipografía de titulares, Bodoni Moda de alto contraste, hace el trabajo del rótulo; Instrument Sans lleva todo lo demás con claridad de impreso.\n\nUn único metal, el latón, marca lo que se puede pulsar: botones, enlaces de acción, el día y la hora elegidos, el foco, el chevron de las preguntas. Lo demás es crema y crema apagada. La densidad es baja y la composición asimétrica: columnas 4/7 con la columna estrecha fija al desplazar, mosaico irregular de fotos a sangre, equipo escalonado. El movimiento se reserva para una sola entrada orquestada en el hero; el resto son transiciones de estado.\n\nRechazos confirmados por el usuario y el plan: nada de degradados morado-azul, nada de Inter en todo, nada de tarjetas dentro de tarjetas, nada de hero centrado sobre fila de tarjetas de iconos.",
+    "keyCharacteristics": [
+      "Fondo oscuro cálido con superficies por escalón de tono (`carbon` → `carbon-2` → `carbon-3`).",
+      "Un solo acento, latón, exclusivo de lo pulsable.",
+      "Bodoni Moda a escala de rótulo para titulares y precios; Instrument Sans para texto y controles.",
+      "Esquinas rectas en todo; sin sombras en reposo, sin degradados, sin filetes decorativos.",
+      "Composición asimétrica 4/7 y mosaico de fotos a sangre.",
+      "Movimiento: una entrada en el hero y transiciones de estado con `cubic-bezier(.16, 1, .3, 1)`."
+    ],
+    "rules": [
+      {
+        "name": "The Latón Es Para Pulsar Rule",
+        "body": "El latón solo aparece en elementos interactivos o en su estado elegido/foco. Las estrellas de la valoración, los precios y los titulares van en crema. Si algo en latón no se puede pulsar, sobra.",
+        "section": "colors"
+      },
+      {
+        "name": "The Escalón De Tono Rule",
+        "body": "Una superficie se separa de otra subiendo un escalón de carbón (`carbon` → `carbon-2` → `carbon-3`), nunca con sombra ni borde. Dos superficies contiguas no comparten escalón.",
+        "section": "colors"
+      },
+      {
+        "name": "The Inactivo Con Token Rule",
+        "body": "Todo texto inactivo usa `crema-3`; no se escriben grises sueltos en el código.",
+        "section": "colors"
+      },
+      {
+        "name": "The Rótulo Rule",
+        "body": "Bodoni Moda solo en titulares, precios, números de día, citas y la marca. Nunca en controles, etiquetas ni texto corrido.",
+        "section": "typography"
+      },
+      {
+        "name": "The Cifra De Carta Rule",
+        "body": "Toda cifra que se compara (precios, horas, duraciones, horario) usa cifras tabulares.",
+        "section": "typography"
+      },
+      {
+        "name": "The Plano En Reposo Rule",
+        "body": "Nada proyecta sombra. Los estados se expresan con cambio de tono de fondo (`carbon-3` en hover de servicio), cambio de color (latón → latón claro) o un desplazamiento de 1px al pulsar.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do reservar el latón (`laton`) para lo pulsable y su estado elegido o enfocado; hover siempre a `laton-claro`.",
+      "Do separar superficies subiendo un escalón de carbón (`carbon` → `carbon-2` → `carbon-3`).",
+      "Do usar Bodoni Moda 500 para titulares, precios y números de día, e Instrument Sans para todo lo demás.",
+      "Do mantener la esquina recta (0) en botones, campos, casillas y fotos.",
+      "Do usar `sec` como único espaciado vertical entre secciones y `gutter` como margen lateral.",
+      "Do usar cifras tabulares en precios, horas, duraciones y horario.",
+      "Do usar `crema-3` para cualquier texto inactivo.",
+      "Do dar a cada control un alto mínimo de 2,75rem (3,25rem en botones y campos) y foco visible de 2px en latón.",
+      "Do animar estados con `cubic-bezier(.16, 1, .3, 1)` entre .2s y .3s, y respetar `prefers-reduced-motion`."
+    ],
+    "donts": [
+      "Don't usar sombras, degradados ni filetes decorativos; el único trazo es el borde de 1px de los controles.",
+      "Don't poner latón en elementos no interactivos (estrellas, precios, titulares).",
+      "Don't redondear esquinas.",
+      "Don't usar Bodoni en controles, etiquetas o texto corrido, ni Inter en ningún sitio.",
+      "Don't poner etiquetas en mayúscula espaciada encima de los titulares.",
+      "Don't meter tarjetas dentro de tarjetas ni montar filas de tarjetas con iconos.",
+      "Don't añadir animaciones de entrada fuera del hero.",
+      "Don't escribir colores sueltos en el código; todo sale de las variables de `:root`."
+    ]
+  }
+}

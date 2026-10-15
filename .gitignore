@@ -1,0 +1,5 @@
+# Capturas de revisión de diseño (pesadas, se regeneran)
+.impeccable/review/
+
+# Configuración local de Claude Code
+.claude/
