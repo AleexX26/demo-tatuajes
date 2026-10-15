@@ -6,7 +6,7 @@ export default {
   demo: true,
 
   // Dominio definitivo, sin barra final. Se usa en canonical, Open Graph, sitemap y JSON-LD.
-  dominio: 'https://aleexx26.github.io/demo-tatuajes',
+  dominio: 'https://demo-tatuajes.e275.workers.dev',
 
   nombre: 'Tinta Negra',
   // Frase corta bajo el H1 y en la meta description.

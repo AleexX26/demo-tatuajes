@@ -37,10 +37,11 @@ node servir.mjs    # http://localhost:4321
 node scripts/capturar.mjs http://localhost:4321/ 390 .impeccable/review mobile 1600   # capturas para revisar
 ```
 
-Despliegue: cada push a main publica en GitHub Pages (`.github/workflows/pages.yml`). Alternativa: subir `publico/` a cualquier hosting estático; `_headers` vale tal cual en Netlify o Cloudflare Pages.
+Despliegue: cada push a main redespliega en Cloudflare Workers (`wrangler.jsonc`, carpeta `publico/` commiteada: ejecuta `node build.mjs` y haz commit de `publico/` antes del push). GitHub Pages sigue como copia (`.github/workflows/pages.yml`).
 
 ## Decisiones
 
+- 2026-10-15: despliegue definitivo en Cloudflare Workers (assets estáticos): `wrangler.jsonc` sirve `publico/` (que va commiteado) y el Git integration de Cloudflare redespliega en cada push a main; URL https://demo-tatuajes.e275.workers.dev/ (`workers_dev: true`, si no la URL queda deshabilitada). Repo: https://github.com/AleexX26/demo-tatuajes. GitHub Pages sigue activo con `.github/workflows/pages.yml` pero ya no es la URL canónica.
 - 2026-10-15: conversión de barbería a estudio de tatuajes (carpeta `Proyectos/Tatuajes/`, sin repositorio git todavía). `barberos` pasa a `artistas` en config, build y JS; servicios = consulta gratis, tatuajes por tamaño (con `desde: true` para precio orientativo) y retoque/cover; citas de 60 min de intervalo y 24 h de antelación; el formulario añade campo «Tu idea» que viaja en el mensaje de WhatsApp; JSON-LD `TattooParlor`; acento rojo coral. Fotos de tatuaje de Unsplash (11 fotos, mismos nombres de archivo que antes: `barba`, `tijera`, etc. ya no describen su contenido), con alts y créditos actualizados.
 - 2026-10-14: build de Node sin dependencias que prerenderiza el HTML desde la config. Así el contenido, el título, la descripción, OG y JSON-LD llegan sin JavaScript (mejor SEO y velocidad) y los datos viven en un solo archivo.
 - 2026-10-14: valoración de Google como dato de config, visible solo si está rellena y marcada «dato de ejemplo» en demo; nunca en JSON-LD (sin aggregateRating, Google no admite estrellas propias en LocalBusiness).
